@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>About Us</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+
+  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+   
+   <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
+<link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+<link href="css/smoothbox.css" rel='stylesheet' type='text/css'/>
+<link href="css/styleindex.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="//fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+
+      
+
+  
+  
+ 
+  
+  
+  
+  <link href="lib/owlcarousel/owl.transitions.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+ 
+
+  <!--Your custom colour override - predefined colours are: colour-blue.css, colour-green.css, colour-lavander.css, orange is default-->
+  <link href="#" id="colour-scheme" rel="stylesheet">
+
+
+
+
+
+  
+  <style type="text/css">
+
+
+/* About Us Section
+--------------------------------*/
+
+#about {
+  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+#about::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 9;
+}
+
+#about .container {
+  position: relative;
+  z-index: 10;
+}
+
+#about .about-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+#about .about-col .img {
+  position: relative;
+}
+
+#about .about-col .img img {
+  border-radius: 4px 4px 0 0;
+}
+
+#about .about-col .icon {
+  width: 64px;
+  height: 64px;
+  padding-top: 8px;
+  text-align: center;
+  position: absolute;
+  background-color: #18d26e;
+  border-radius: 50%;
+  text-align: center;
+  border: 4px solid #fff;
+  left: calc( 50% - 32px);
+  bottom: -30px;
+  transition: 0.3s;
+}
+
+#about .about-col i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#about .about-col:hover .icon {
+  background-color: #fff;
+}
+
+#about .about-col:hover i {
+  color: #18d26e;
+}
+
+#about .about-col h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+  margin: 40px 0 12px 0;
+}
+
+#about .about-col h2 a {
+  color: #000;
+}
+
+#about .about-col h2 a:hover {
+  color: #18d26e;
+}
+
+#about .about-col p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 0;
+  padding: 0 20px 20px 20px;
+}
+
+
+
+
+
+/* Portfolio Section
+--------------------------------*/
+
+#portfolio {
+  padding: 60px 0;
+}
+
+#portfolio #portfolio-flters {
+  padding: 0;
+  margin: 5px 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+
+#portfolio #portfolio-flters li {
+  cursor: pointer;
+  margin: 15px 15px 15px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio #portfolio-flters li:hover,
+#portfolio #portfolio-flters li.filter-active {
+  background: #18d26e;
+  color: #fff;
+}
+
+#portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+#portfolio .portfolio-wrap {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+#portfolio .portfolio-wrap:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+}
+
+#portfolio .portfolio-item {
+  position: relative;
+  height: 360px;
+  overflow: hidden;
+}
+
+#portfolio .portfolio-item figure {
+  background: #000;
+  overflow: hidden;
+  height: 240px;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+}
+
+#portfolio .portfolio-item figure:hover img {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+#portfolio .portfolio-item figure .link-preview,
+#portfolio .portfolio-item figure .link-details {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  line-height: 1;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.2s linear;
+}
+
+#portfolio .portfolio-item figure .link-preview i,
+#portfolio .portfolio-item figure .link-details i {
+  padding-top: 6px;
+  font-size: 22px;
+  color: #333;
+}
+
+#portfolio .portfolio-item figure .link-preview:hover,
+#portfolio .portfolio-item figure .link-details:hover {
+  background: #18d26e;
+}
+
+#portfolio .portfolio-item figure .link-preview:hover i,
+#portfolio .portfolio-item figure .link-details:hover i {
+  color: #fff;
+}
+
+#portfolio .portfolio-item figure .link-preview {
+  left: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+
+#portfolio .portfolio-item figure .link-details {
+  right: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+
+#portfolio .portfolio-item figure:hover .link-preview {
+  opacity: 1;
+  left: calc(50% - 44px);
+}
+
+#portfolio .portfolio-item figure:hover .link-details {
+  opacity: 1;
+  right: calc(50% - 44px);
+}
+
+#portfolio .portfolio-item .portfolio-info {
+  background: #fff;
+  text-align: center;
+  padding: 30px;
+  height: 90px;
+  border-radius: 0 0 3px 3px;
+}
+
+#portfolio .portfolio-item .portfolio-info h4 {
+  font-size: 18px;
+  line-height: 1px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  padding-bottom: 0;
+}
+
+#portfolio .portfolio-item .portfolio-info h4 a {
+  color: #333;
+}
+
+#portfolio .portfolio-item .portfolio-info h4 a:hover {
+  color: #18d26e;
+}
+
+#portfolio .portfolio-item .portfolio-info p {
+  padding: 0;
+  margin: 0;
+  color: #b8b8b8;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+
+
+    
+    .side .container{
+  margin: 4% auto;
+  width: 210px;
+  height: 140px;
+  position: relative;
+  perspective: 1000px;
+}
+    #carousel{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: rotation 20s infinite linear;
+}
+#carousel:hover{
+  animation-play-state: paused;
+}
+#carousel figure{
+  display: block;
+  position: absolute;
+  width: 90%;
+  height: 50%px;
+  left: 10px;
+  top: 10px;
+  background: black;
+  overflow: hidden;
+  border: solid 5px black;
+}
+
+
+
+/* circle carousel end*/
+.navbar
+{
+background-color: #CC9900;
+}
+.navbar-nav>li>a{
+color: #000000;
+
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+} 
+
+
+.dropdown-menu > li >a{
+color: #000000;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+font-weight: 400;
+font-style: normal;
+background-color: #CC9900;
+} 
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 450%;
+  padding: 15px;
+  width: auto;
+}
+
+
+    .fill{
+z-index:4;
+background-image:url(../image/back3.png);
+background-repeat:repeat;
+margin-bottom:0px;
+font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.slide-wrapper{
+margin-top:3%;
+}
+.thumbnail img
+{
+height:500px;
+width:100%;
+}
+
+
+.carousel-inner{
+height:550px;
+}
+#myCarousel
+{
+height:550px;
+margin-top:1%;
+}
+.navbar-inverse .navbar-nav > li > a {
+color:#000000;
+font-family: Montserrat;
+font-weight: 400;
+font-style: normal;
+}
+.navbar-inverse .navbar-nav > li > a.hovl{
+color:#FFFFFF;
+font-family: Montserrat;
+font-weight: 400;
+font-style: normal;
+}
+
+
+
+  </style>
+
+</head>
+
+<!-- ======== @Region: body ======== -->
+
+<body class="page-about">
+  <!-- Header -->
+<section class="header" style="padding-top: 0px">
+<div class="banner">
+<div class="w3_banner">
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link " href="index.html">HOME </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link active" href="about.html">ABOUT US</a>
+      </li>
+      
+    <li class="nav-item">
+        <a class="nav-link scroll" href="#testimonials">APPLY FOR A COURSE</a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link scroll" href="#contact">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="agileits_w3layouts_banner_info">
+        <section class="slider">
+            <div class="flexslider">
+              <ul class="slides">
+                <li>
+                  <div class="banner-text-w3-agileits">
+                    
+                    <img src="images/fashion1.jpg" class="img-responsive img-thumbnail" style="width:445px;">
+                  </div>
+                </li>
+                <li>
+                  <div class="banner-text-w3-agileits">
+                    
+                    <img src="images/fashion2.jpg" class="img-responsive img-thumbnail" style="width:445px;height: 445px">
+                    
+                  </div>
+                </li>
+                <li>
+                  <div class="banner-text-w3-agileits">
+                    
+                    <img src="images/fashion3.jpg" class="img-responsive img-thumbnail" style="width:445px;">
+                    
+                  </div>
+                </li>
+                <li>
+                  <div class="banner-text-w3-agileits">
+                    
+                    <img src="images/fashion4.jpg" class="img-responsive img-thumbnail" style="width:445px;">
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+        </section>
+      </div>
+</div>
+</div>
+</div>
+</section>
+<!-- /Header -->
+    <!-- Navigation -->
+
+
+
+ 
+
+  <!-- ======== @Region: #content ======== -->
+  <div id="content">
+    <div class="container" >
+      <div class="row" >
+        <!--main content-->
+        <div class="col-md-12 " >
+          <div class="page-header text-center" style="margin-top: 1px; padding-top: 0px">
+            <h1 style="color:#C90202; font-weight: bold;">
+                ABOUT US
+                <small>How it all began</small>
+              </h1>
+          </div>
+          <div class="block block-border-bottom-grey block-pd-sm" style="border-color:#C90202;text-align: justify; margin-top: 2px; padding-top: 1px" id="about"  >
+            <h3 class="block-title text-center" style="font-weight: bold;">
+                What Makes Us Tick!
+              </h3>
+               <img class="img-responsive img-thumbnail pull-right m-l m-b" src="images/passport.png"/>
+            <p>Fikaytex art & fashion is a Nigeria based luxury fashion brand that aims at satisfying the stylist urge of her clients, who sees a true taste of modern African designs. Our goal is to imbibe contemporary fashion into punctilious and meticulously selected conventional African artistic fashion to the doorstep of clients around the world. It is one of the best fashion design schools in Nigeria developed to meet the changings needs of Nigeria designers. We have produce students who are highly skilled and confident professionals doing well professionally.
+Our training system is based on scientific principles which eliminates guesswork thereby building competent and skillful professionals.
+            </p>
+            <p>Our training system is based on scientific principles which eliminates guesswork thereby building competent and skillful professionals. Our courses include:</p>
+
+            
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <section id="about" style="margin-top: 1px; padding-top: 1px">
+      <div class="container">
+
+        <!--<header class="section-header">
+          <h3 style="text-align: center;">OUR PORTFOLIO</h3>
+        </header>
+      -->
+
+        <div class="row about-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="images/about-mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <p>
+                To practically train designers to create exceptional modern trends of fashion, textile and fine art.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="images/about-plan.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Purpose</a></h2>
+              <p>
+                Raising creative giants in fashion, textile and fine art who will practically design and establish uncommon designs.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="images/about-vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <p>
+                To develop and build future designers who by systematic, punctilious and meticulously create artistic designs.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #about -->
+  <!-- Call out block -->
+  <div class="block block-bg-primary block-bg-overlay block-bg-overlay-5 text-center" data-block-bg-img="https://picjumbo.imgix.net/HNCK8991.jpg?q=40&amp;w=1650&amp;sharp=30" data-stellar-background-ratio="0.3" style="background-color:#C90202; ">
+    <h2 class="m-t-0">
+        Be part of our amazing team!
+      </h2>
+    <p class="m-a-0">
+      <a href="#" class="btn btn-more btn-lg i-right">Apply <i class="fa fa-angle-right"></i></a>
+    </p>
+  </div>
+
+
+
+
+
+
+
+
+
+ 
+
+  
+  <!-- Call out block -->
+  <div class="block block-pd-sm block-bg-primary" style="background-color:#C90202; ">
+    <div class="container">
+      <div class="row">
+        <h3 class="col-md-4" style="color: #000000">
+            Some of our Clients
+          </h3>
+        <div class="col-md-8">
+          <div class="row">
+            <!--Client logos should be within a 120px wide by 60px height image canvas-->
+            <div class="col-xs-6 col-md-2">
+              <a href="https://bootstrapmade.com" title="Client 1">
+                  <img src="images/clients/client1.png" alt="Client 1 logo" class="img-responsive">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-2">
+              <a href="https://bootstrapmade.com" title="Client 2">
+                  <img src="images/clients/client2.png" alt="Client 2 logo" class="img-responsive">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-2">
+              <a href="https://bootstrapmade.com" title="Client 3">
+                  <img src="images/clients/client3.png" alt="Client 3 logo" class="img-responsive">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-2">
+              <a href="https://bootstrapmade.com" title="Client 4">
+                  <img src="images/clients/client4.png" alt="Client 4 logo" class="img-responsive">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-2">
+              <a href="https://bootstrapmade.com" title="Client 5">
+                  <img src="images/clients/client5.png" alt="Client 5 logo" class="img-responsive">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-2">
+              <a href="https://bootstrapmade.com" title="Client 6">
+                  <img src="images/clients/client6.png" alt="Client 6 logo" class="img-responsive">
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio"  class="section-bg" >
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title text-center">OUR PORTFOLIO</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/portfolio/app1.jpg" class="img-fluid" alt="">
+              </figure>
+
+             
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/portfolio/web3.jpg" class="img-fluid" alt="">
+                
+              </figure>
+
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/portfolio/app2.jpg" class="img-fluid" alt="">
+               
+              </figure>
+
+             
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/portfolio/card2.jpg" class="img-fluid" alt="">
+                
+              </figure>
+
+             
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/portfolio/web2.jpg" class="img-fluid" alt="">
+               
+              </figure>
+
+             
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/portfolio/app3.jpg" class="img-fluid" alt="">
+               
+              </figure>
+
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/portfolio/card1.jpg" class="img-fluid" alt="">
+                
+              </figure>
+
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/portfolio/card3.jpg" class="img-fluid" alt="">
+               
+              </figure>
+
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/portfolio/web1.jpg" class="img-fluid" alt="">
+                
+              </figure>
+
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <!-- ======== @Region: #footer ======== -->
+  <footer id="footer" class="block block-bg-grey-dark" data-block-bg-img="img/bg_footer-map.png" data-stellar-background-ratio="0.4">
+    <div class="container">
+      <a href="#top" class="scrolltop">Top</a>
+      <div class="row" id="contact">
+
+        <div class="col-md-3">
+          <address>
+              <strong></strong>
+              <br>
+              <i class="fa fa-map-pin fa-fw text-primary"></i> 
+              <br>
+              <i class="fa fa-phone fa-fw text-primary"></i> 019223 8092344
+              <br>
+              <i class="fa fa-envelope-o fa-fw text-primary"></i> info@flexorinc.com
+              <br>
+            </address>
+        </div>
+
+        <div class="col-md-6">
+          <h4 class="text-uppercase">
+              Contact Us
+            </h4>
+          <div class="form">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <h4 class="text-uppercase">
+              Follow Us On:
+            </h4>
+          <!--social media icons-->
+          <div class="social-media social-media-stacked">
+            <!--@todo: replace with company social media details-->
+            <a href="#"><i class="fa fa-twitter fa-fw"></i> Twitter</a>
+            <a href="#"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
+            <a href="#"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+            <a href="#"><i class="fa fa-google-plus fa-fw"></i> Google+</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="row subfooter">
+        <!--@todo: replace with company copyright details-->
+        <div class="col-md-7">
+          <p>Copyright © FIKAYTEXART</p>
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Flexor
+            -->
+            Designed by <a href="https://bootstrapmade.com/">Enetworld</a>
+          </div>
+        </div>
+        <div class="col-md-5">
+         
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Required JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/stellar/stellar.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Specisifc Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
+  <!--Custom scripts demo background & colour switcher - OPTIONAL -->
+  <script src="js/color-switcher.js"></script>
+
+  <!--Contactform script -->
+  <script src="contactform/contactform.js"></script>
+
+
+
+  <script src="js/jquery-2.2.3.min.js"></script>
+<script  src="js/jquery.js"></script>
+<script  src="js/bootstrap.min.js"></script>
+<script  src="js/move-top.js"></script>
+<script  src="js/easing.js"></script>
+<script  src="js/SmoothScroll.min.js"></script> 
+<script  src="js/smoothbox.min.js"></script>
+
+<!-- flexSlider -->
+        <script defer src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript">
+          $(window).load(function(){
+            $('.flexslider').flexslider({
+            animation: "slide",
+            start: function(slider){
+              $('body').removeClass('loading');
+            }
+            });
+          });
+        </script>
+<!-- //flexSlider -->
+
+
+<!-- tabs -->
+
+<script src="js/easy-responsive-tabs.js"></script>
+<script>
+$(document).ready(function () {
+$('#horizontalTab').easyResponsiveTabs({
+type: 'default', //Types: default, vertical, accordion           
+width: 'auto', //auto or any width like 600px
+fit: true,   // 100% fit in a container
+closed: 'accordion', // Start closed if in accordion view
+activate: function(event) { // Callback function if tab is switched
+var $tab = $(this);
+var $info = $('#tabInfo');
+var $name = $('span', $info);
+$name.text($tab.text());
+$info.show();
+}
+});
+$('#verticalTab').easyResponsiveTabs({
+type: 'vertical',
+width: 'auto',
+fit: true
+});
+});
+</script>
+<!--//tabs-->
+
+  <script type="text/javascript">
+  $(window).load(function() {
+  $("#flexiselDemo1").flexisel({
+    visibleItems:1,
+    animationSpeed: 1000,
+    autoPlay:false,
+    autoPlaySpeed: 3000,        
+    pauseOnHover: true,
+    enableResponsiveBreakpoints: true,
+    responsiveBreakpoints: { 
+      portrait: { 
+        changePoint:480,
+        visibleItems: 1
+      }, 
+      landscape: { 
+        changePoint:640,
+        visibleItems:1
+      },
+      tablet: { 
+        changePoint:768,
+        visibleItems: 1
+      }
+    }
+  });
+
+  });
+  </script>
+  <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+  
+<!-- for-Map -->
+    <script type="text/javascript">
+      $(function() {
+      
+        var menu_ul = $('.faq > li > ul'),
+             menu_a  = $('.faq > li > a');
+        
+        menu_ul.hide();
+      
+        menu_a.click(function(e) {
+          e.preventDefault();
+          if(!$(this).hasClass('active')) {
+            menu_a.removeClass('active');
+            menu_ul.filter(':visible').slideUp('normal');
+            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+          } else {
+            $(this).removeClass('active');
+            $(this).next().stop(true,true).slideUp('normal');
+          }
+        });
+      
+      });
+    </script>
+<!-- //for-Map -->
+
+<!-- start-smoth-scrolling -->
+<!-- here stars scrolling icon -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      /*
+        var defaults = {
+        containerID: 'toTop', // fading element id
+        containerHoverID: 'toTopHover', // fading element hover id
+        scrollSpeed: 1200,
+        easingType: 'linear' 
+        };
+      */
+                
+      $().UItoTop({ easingType: 'easeOutQuart' });
+                
+      });
+  </script>
+  <!-- //here ends scrolling icon -->
+<!-- scrolling script -->
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $(".scroll").click(function(event){   
+      event.preventDefault();
+      $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+    });
+  });
+</script> 
+<!-- //scrolling script -->
+<!--//start-smoth-scrolling -->
+
+
+
+</body>
+
+</html>
